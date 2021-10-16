@@ -1,0 +1,107 @@
+
+body {
+    background-color: rgb(255, 235, 217);
+}
+#add-list-item {
+	outline: none;
+    box-sizing: border-box;
+    width: 100%;
+	margin-bottom: 2%;
+    background-color: rgb(254, 249, 245);
+	border: 1px solid #ccc;
+	padding: 2%;
+	color: rgb(39, 101, 115);
+	font: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+#add-list-item::placeholder {
+    color: rgb(218, 208, 190);
+}
+
+
+#add-button {
+    width:50%;
+    padding: 1%;
+    font-weight: bold;
+    border-radius: 5px;
+    margin:0 auto;
+    display:block;
+    margin-bottom: 4%;
+    background-color: rgb(39, 101, 115);
+    border: 5px solid rgb(39, 101, 115);
+    font: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;    
+    color: white;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+#add-button:hover {
+    background-color: rgb(202, 74, 108);
+    /* transition: 350ms; */
+    border: 5px solid rgb(202, 74, 108);
+    border-radius: 50px;
+    color: white;
+}
+
+#add-button:active {
+    transform: translateY(3px);
+}
+
+#todo-list-box {
+    margin: 0 auto;
+    width: 50%;
+    border: 5px solid rgb(254, 249, 245);
+    box-sizing: border-box;
+    background-color: rgb(254, 249, 245);
+}
+
+
+ul {
+    list-style-type: disc;
+    margin: 2em auto 2em;
+    /* line-height: 3; */
+    }
+    
+    li {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: rgb(39, 101, 115);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 5%;
+    }
+    li:hover {
+        color:rgb(209, 204, 195);
+        text-decoration: line-through;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        cursor: default;
+    }
+
+
+.delete {
+    background-color: rgb(253, 216, 215);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(202, 74, 108);
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-color: rgb(202, 74, 108);
+    transition: 250ms;
+}
+
+.delete:hover {
+    background-color: rgb(202, 74, 108);
+    color: rgb(253, 216, 215);
+}
+
+.completed {
+    color:rgb(209, 204, 195);
+    text-decoration: line-through;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
