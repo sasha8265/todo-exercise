@@ -1,22 +1,22 @@
 
 body {
-    background-color: rgb(255, 235, 217);
+    background-color: rgb(242, 228, 220);
 }
 #add-list-item {
 	outline: none;
     box-sizing: border-box;
     width: 100%;
 	margin-bottom: 2%;
-    background-color: rgb(254, 249, 245);
+    background-color: rgb(250, 245, 242);
 	border: 1px solid #ccc;
 	padding: 2%;
-	color: rgb(39, 101, 115);
+	color: rgb(140, 136, 128);
 	font: Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
 }
 
 #add-list-item::placeholder {
-    color: rgb(218, 208, 190);
+    color: rgb(217, 208, 199);
 }
 
 
@@ -28,8 +28,8 @@ body {
     margin:0 auto;
     display:block;
     margin-bottom: 4%;
-    background-color: rgb(39, 101, 115);
-    border: 5px solid rgb(39, 101, 115);
+    background-color: rgb(64, 60, 52);
+    border: 5px solid rgb(64, 60, 52);
     font: Arial, Helvetica, sans-serif;
     font-size: 22px;
     letter-spacing: 3px;    
@@ -39,9 +39,9 @@ body {
 }
 
 #add-button:hover {
-    background-color: rgb(202, 74, 108);
+    background-color: rgb(13, 0, 0);
     /* transition: 350ms; */
-    border: 5px solid rgb(202, 74, 108);
+    border: 5px solid rgb(13, 0, 0);
     border-radius: 50px;
     color: white;
 }
@@ -55,7 +55,7 @@ body {
     width: 50%;
     border: 5px solid rgb(254, 249, 245);
     box-sizing: border-box;
-    background-color: rgb(254, 249, 245);
+    background-color: rgb(250, 245, 242);
 }
 
 
@@ -68,13 +68,13 @@ ul {
     li {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
-        color: rgb(39, 101, 115);
+        color: rgb(64, 60, 52);
         text-transform: uppercase;
         letter-spacing: 1px;
         margin-top: 5%;
     }
     li:hover {
-        color:rgb(209, 204, 195);
+        color:rgb(217, 208, 199);
         text-decoration: line-through;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
@@ -83,20 +83,22 @@ ul {
 
 
 .delete {
-    background-color: rgb(253, 216, 215);
+    background-color: rgb(217, 208, 199);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(202, 74, 108);
+    color: rgb(64, 60, 52);
     width: 24px;
     height: 24px;
     border-radius: 12px;
     border-width: 1px;
-    border-color: rgb(202, 74, 108);
+    border-color: rgb(64, 60, 52);
     transition: 250ms;
 }
 
 .delete:hover {
-    background-color: rgb(202, 74, 108);
+    background-color: rgb(242, 45, 27);
     color: rgb(253, 216, 215);
+    border-width: 1px;
+    border-color: rgb(242, 45, 27);
 }
 
 .completed {
