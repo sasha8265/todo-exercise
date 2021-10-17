@@ -83,14 +83,15 @@ ul {
 
 
 .delete {
-    background-color: rgb(217, 208, 199);
+    background-color: rgb(254, 249, 245);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(64, 60, 52);
+    color: rgb(206, 193, 186);
     width: 24px;
     height: 24px;
     border-radius: 12px;
     border-width: 1px;
-    border-color: rgb(64, 60, 52);
+    border-color: rgb(206, 193, 186);
+    border-style: solid;
     transition: 250ms;
 }
 
